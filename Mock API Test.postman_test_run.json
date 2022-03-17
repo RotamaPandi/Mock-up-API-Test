@@ -1,0 +1,142 @@
+{
+	"id": "90b99d16-08b4-431d-92eb-da077b940b63",
+	"name": "Mock API Test",
+	"timestamp": "2022-03-17T07:48:08.637Z",
+	"collection_id": "18635049-a5b07166-d862-4605-82bc-ef346c3924ed",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f3ca135f-d364-4626-b5d1-31f51dc81747",
+			"name": "Mock 200",
+			"url": "https://run.mocky.io/v3/9d314a24-0f5b-4fcf-b0a0-3b989a83652b",
+			"time": 1176,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1176
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5b817ee8-b5c0-461d-9bf2-a8041d70239a",
+			"name": "Mock 400",
+			"url": "https://run.mocky.io/v3/e436314d-349e-42b9-90d9-d8b73b181d2f",
+			"time": 187,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				187
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "ae9b88fa-2d8d-4eed-a163-64a4d159329f",
+			"name": "Mock 404",
+			"url": "https://run.mocky.io/v3/ecaf8e6f-c9b3-4a8c-b9d8-293f9ced7935",
+			"time": 192,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				192
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "695a824c-5c2c-4f11-bbb2-8338c67bb6c0",
+			"name": "Mock 500",
+			"url": "https://run.mocky.io/v3/d2e71fe2-6ef9-4006-8e39-6fa0ccf3f814",
+			"time": 186,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 500": true
+			},
+			"testPassFailCounts": {
+				"Status code is 500": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				186
+			],
+			"allTests": [
+				{
+					"Status code is 500": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1741,
+	"collection": {
+		"requests": [
+			{
+				"id": "f3ca135f-d364-4626-b5d1-31f51dc81747",
+				"method": "POST"
+			},
+			{
+				"id": "5b817ee8-b5c0-461d-9bf2-a8041d70239a",
+				"method": "POST"
+			},
+			{
+				"id": "ae9b88fa-2d8d-4eed-a163-64a4d159329f",
+				"method": "POST"
+			},
+			{
+				"id": "695a824c-5c2c-4f11-bbb2-8338c67bb6c0",
+				"method": "POST"
+			}
+		]
+	}
+}
